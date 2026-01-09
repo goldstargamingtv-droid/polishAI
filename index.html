@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - PolishAI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #0A0A0F 0%, #12121A 100%);
+      color: #E5E7EB;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .logo-icon {
+      font-size: 36px;
+    }
+
+    .logo-text {
+      font-size: 28px;
+      font-weight: 800;
+      background: linear-gradient(135deg, #8B5CF6 0%, #6366F1 50%, #4F46E5 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      font-size: 14px;
+      color: #9CA3AF;
+    }
+
+    section {
+      background: rgba(26, 26, 37, 0.6);
+      border: 1px solid rgba(139, 92, 246, 0.2);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2::before {
+      content: '';
+      width: 4px;
+      height: 24px;
+      background: linear-gradient(135deg, #8B5CF6 0%, #4F46E5 100%);
+      border-radius: 2px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: #D1D5DB;
+    }
+
+    ul {
+      margin: 16px 0;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #D1D5DB;
+    }
+
+    a {
+      color: #A78BFA;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .highlight {
+      background: rgba(139, 92, 246, 0.1);
+      border-left: 3px solid #8B5CF6;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      color: #6B7280;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #8B5CF6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <span class="logo-icon">✨</span>
+        <span class="logo-text">PolishAI</span>
+      </div>
+      <h1>Privacy Policy</h1>
+      <p class="last-updated">Last updated: January 2026</p>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <p>PolishAI ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our Chrome extension.</p>
+      <div class="highlight">
+        <strong>Key Point:</strong> We process text only to provide the service. We do not store, sell, or share your text content with third parties.
+      </div>
+    </section>
+
+    <section>
+      <h2>Information We Collect</h2>
+      <p><strong>Text Content:</strong> When you use PolishAI, we temporarily process the text you select to provide AI-powered rewriting. This text is sent to our secure servers, processed by AI, and immediately discarded after the response is returned.</p>
+      <p><strong>Usage Data:</strong> We track anonymous usage counts (number of polishes per day) stored locally on your device to enforce free tier limits.</p>
+      <p><strong>Purchase Information:</strong> If you purchase Pro, we store your email address to verify your license. Payment processing is handled securely by Stripe - we never see or store your payment card details.</p>
+    </section>
+
+    <section>
+      <h2>How We Use Your Information</h2>
+      <ul>
+        <li>To provide the text polishing service</li>
+        <li>To verify Pro license status</li>
+        <li>To improve our service</li>
+        <li>To communicate about your purchase (if applicable)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Data Storage & Security</h2>
+      <p>Your selected text is processed in real-time and <strong>never stored</strong> on our servers. We use industry-standard encryption (HTTPS/TLS) for all data transmission.</p>
+      <p>License data is stored securely in our database with encryption at rest. We use Supabase for secure data storage with SOC 2 Type II compliance.</p>
+    </section>
+
+    <section>
+      <h2>Third-Party Services</h2>
+      <p>We use the following third-party services:</p>
+      <ul>
+        <li><strong>Anthropic (Claude AI):</strong> For AI text processing. Subject to <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic's Privacy Policy</a></li>
+        <li><strong>Stripe:</strong> For payment processing. Subject to <a href="https://stripe.com/privacy" target="_blank">Stripe's Privacy Policy</a></li>
+        <li><strong>Supabase:</strong> For license data storage. Subject to <a href="https://supabase.com/privacy" target="_blank">Supabase's Privacy Policy</a></li>
+        <li><strong>Vercel:</strong> For API hosting. Subject to <a href="https://vercel.com/legal/privacy-policy" target="_blank">Vercel's Privacy Policy</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Your Rights</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li>Request deletion of your license data</li>
+        <li>Request information about data we hold</li>
+        <li>Opt out of any marketing communications</li>
+      </ul>
+      <p>To exercise these rights, contact us at <a href="mailto:polishai@gmail.com">polishai@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>Children's Privacy</h2>
+      <p>PolishAI is not intended for use by children under 13. We do not knowingly collect information from children under 13.</p>
+    </section>
+
+    <section>
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will notify users of any material changes by updating the "Last updated" date.</p>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>If you have questions about this Privacy Policy, please contact us:</p>
+      <p>Email: <a href="mailto:polishai@gmail.com">polishai@gmail.com</a></p>
+    </section>
+
+    <footer>
+      <p>© 2026 PolishAI by <a href="https://deploytemplate.com" target="_blank">DeployTemplate.com</a>. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
